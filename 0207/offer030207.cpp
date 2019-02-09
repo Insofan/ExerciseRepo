@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <vector>
+#include <queue>
 
 using namespace std;
 
@@ -26,6 +27,7 @@ public:
         }
         return -1;
     }
+    priority_queue<int, vector<int> , greater<int> > smallQueue;
 };
 
 int main() {
@@ -35,5 +37,23 @@ int main() {
     Solution solution;
     int res   = solution.duplicate(vec);
     cout << res << endl;
+
+    solution.smallQueue.push(1);
+    solution.smallQueue.push(2);
+    cout << solution.smallQueue.top() << endl;
+    solution.smallQueue.push(3);
+    cout << solution.smallQueue.top() << endl;
+    solution.smallQueue.push(0);
+    cout << solution.smallQueue.top() << endl;
+    solution.smallQueue.pop();
+    cout << solution.smallQueue.top() << endl;
+    solution.smallQueue.pop();
+    cout << solution.smallQueue.top() << endl;
+    solution.smallQueue.pop();
+    cout << solution.smallQueue.top() << endl;
+    solution.smallQueue.pop();
+    cout << solution.smallQueue.top() << endl;
+    solution.smallQueue.pop();
+    cout << solution.smallQueue.top() << endl;
     return 0;
 }

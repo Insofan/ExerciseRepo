@@ -1,7 +1,7 @@
 //
-// @ClassName offer11
+// @ClassName offer110208
 // @Description TODO
-// @Date 2019/2/7 4:24 PM
+// @Date 2019/2/8 6:01 PM
 // @Created by Insomnia
 //
 
@@ -19,24 +19,24 @@ public:
         int right = vec.size() - 1;
 
         while (left < right) {
-             int mid = (left + right ) / 2;
+            int mid = (left + right) / 2;
 
-             if (vec[mid] > vec[right]) {
-                 left = mid + 1;
-             } else {
-                 right = mid;
-             }
+            if (vec[mid] > vec[right]) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
         }
 
         return vec[left];
-    }
 
+    }
 };
 
 
 int main() {
 
-    int arr[] = {3, 4, 0, 1, 2};
+    int arr[] = {10, 11, 6, 8, 9};
 
     vector<int> vec(&arr[0], &arr[5]);
 
