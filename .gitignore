@@ -177,3 +177,4 @@ Temporary Items
 .apdisk
 
 # End of https://www.gitignore.io/api/c++,macos,jetbrains
+/0213/offer400213.cpp

@@ -39,3 +39,12 @@ add_executable(offer290210 0210/offer290210.cpp)
 add_executable(MinStack 0210/MinStack.cpp)
 add_executable(offer300210 0210/offer300210.cpp)
 add_executable(offer310210 0210/offer310210.cpp)
+
+
+add_executable(offer400213 0213/offer400213.cpp)
+add_executable(offer410213 0213/offer410213.cpp)
+add_executable(offer420213 0213/offer420213.cpp)
+
+add_executable(offer450213 0213/offer450213.cpp)
+
+add_executable(test0213 0213/test0213.cpp)
