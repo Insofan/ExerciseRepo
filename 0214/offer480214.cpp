@@ -16,16 +16,19 @@ using namespace std;
 class Solution {
 public:
     int longestSubStr(string str) {
-        int res;
-
-        int first = 0;
-        int last = 0;
+        int res = 0;
 
         set<char> mySet;
 
         for (int i= 0; i < str.length(); i++) {
-//            mySet.insert(str[i]);
-//            if (mySet)
+            if (mySet.count(str[i]) == 0) {
+                mySet.insert(str[i]);
+            } else {
+                mySet.erase(str[i]);
+            }
+
+            int size = mySet.size();
+            res = max(size, res);
         }
 
         return res;
@@ -42,3 +45,4 @@ int main() {
 
     return 0;
 }
+
