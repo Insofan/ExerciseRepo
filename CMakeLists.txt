@@ -47,4 +47,7 @@ add_executable(offer420213 0213/offer420213.cpp)
 
 add_executable(offer450213 0213/offer450213.cpp)
 
-add_executable(test0213 0213/test0213.cpp)
+
+add_executable(offer470214 0214/offer470214.cpp)
+add_executable(offer480214 0214/offer480214.cpp)
+add_executable(offer490214 0214/offer490214.cpp)
