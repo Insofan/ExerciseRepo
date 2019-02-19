@@ -72,3 +72,6 @@ add_executable(offer680218 0218/offer680218.cpp)
 
 add_executable(Sort0219 0219/Sort0219.cpp)
 add_executable(OrderBt0219 0219/OrderBt0219.cpp)
+add_executable(RobotPath 0219/RobotPath.cpp)
+add_executable(CutRope0219 0219/CutRope0219.cpp)
+add_executable(DeleteNode 0219/DeleteNode.cpp)
