@@ -79,7 +79,5 @@ add_executable(DeleteNode 0219/DeleteNode.cpp)
 add_executable(duplicate0219 021901/duplicate0219.cpp)
 add_executable(rotate021901 021901/rotate021901.cpp)
 add_executable(rope021901 021901/rope021901.cpp)
-=======
 add_executable(SingleNumInTripple 0216/SingleNumInTripple.cpp)
 add_executable(MinTree0225 0225/MinTree0225.cpp)
->>>>>>> sync
