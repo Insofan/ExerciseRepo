@@ -59,6 +59,7 @@ add_executable(offer540215 0215/offer540215.cpp)
 add_executable(offer550215 0215/offer550215.cpp)
 add_executable(offer560215 0215/offer560215.cpp)
 add_executable(offer570215 0215/offer570215.cpp)
+<<<<<<< HEAD
 add_executable(offer580218 0218/offer580218.cpp)
 add_executable(offer590218 0218/offer590218.cpp)
 add_executable(offer600218 0218/offer600218.cpp)
@@ -78,3 +79,7 @@ add_executable(DeleteNode 0219/DeleteNode.cpp)
 add_executable(duplicate0219 021901/duplicate0219.cpp)
 add_executable(rotate021901 021901/rotate021901.cpp)
 add_executable(rope021901 021901/rope021901.cpp)
+=======
+add_executable(SingleNumInTripple 0216/SingleNumInTripple.cpp)
+add_executable(MinTree0225 0225/MinTree0225.cpp)
+>>>>>>> sync
