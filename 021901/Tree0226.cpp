@@ -85,6 +85,36 @@ public:
     }
 };
 
+
+class Solution2 {
+public:
+    void postOrder(BSTree *root) {
+        if (!root) {
+            return;
+        }
+
+        stack<BSTree *> s;
+        BSTree *p = root;
+
+        BSTree *last = NULL;
+        while (!s.empty() || p) {
+            if (p) {
+                s.push(p);
+                p = p->left;
+            } else  {
+                BSTree *top = s.top();
+                if (top->right && top->right != last) {
+                    p = top->right;
+                } else {
+                    s.pop();
+                    last = top;
+                    cout << top->val << " ";
+                }
+            }
+        }
+    }
+};
+
 int main() {
     BSTree a1(10);
     BSTree a2(5);
