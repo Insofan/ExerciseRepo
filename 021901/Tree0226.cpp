@@ -79,7 +79,6 @@ public:
                 p = p->left;
             } else {
                 BSTree *tmp = s.top();
-                if
             }
         }
     }
